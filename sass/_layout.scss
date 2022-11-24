@@ -1,0 +1,35 @@
+.header {
+  font-size: 1.6rem;
+  height: 7rem;
+  background-color: var(--color-white);
+  border-bottom: var(--color-grey-light-2);
+  //aligns the child elements along the main axis
+  display: flex;
+  justify-content: space-between;
+  //alignment of the items in respect to the cross axis
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.container {
+  width: 80%;
+  margin: 10rem auto;
+  height: 50rem;
+  background-color: var(--color-grey-light-2);
+  box-shadow: 0 2rem 5rem rgba(#000, 0.4);
+}
+
+.content {
+  display: flex;
+}
+
+.hotel-view {
+  background-color: var(--color-white);
+  //grow as much as it can
+  flex: 1;
+}
+
+.logo {
+  height: 5rem;
+  width: auto;
+}
