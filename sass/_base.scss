@@ -1,3 +1,4 @@
+$largest: 75em;
 :root {
   --color-black: #000;
   --color-white: #fff;
@@ -14,7 +15,15 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
+
+  --line: 1px solid var(--color-grey-light-2);
 }
+
+$largest: 75em;
+$large: 68.75em;
+$medium: 56.25rem;
+$small: 37.5em;
+$smallest: 31.25em;
 
 * {
   margin: 0;
@@ -35,6 +44,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  @media only screen and (max-width: $large) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -48,6 +60,5 @@ body {
   );
   background-size: cover;
   background-repeat: no-repeat;
-
-  height: 100vh;
+  height: 116vh;
 }

@@ -1,5 +1,8 @@
-@import "layout";
 @import "base";
+@import "layout";
 
-@import "components/sidebar";
+@import "components/button";
 @import "components/searchbar";
+@import "components/sidebar";
+
+@import "pages/hotels";
